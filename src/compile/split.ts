@@ -1,5 +1,5 @@
 import * as log from '../log';
-import {deepEqual, duplicate, getFirstDefined, keys} from '../util';
+import {deepEqual, Dict, duplicate, getFirstDefined, keys} from '../util';
 
 /**
  * Generic class for storing properties that are explicitly specified
@@ -7,7 +7,7 @@ import {deepEqual, duplicate, getFirstDefined, keys} from '../util';
  * This is important for scale/axis/legend merging as
  * we want to prioritize properties that users explicitly specified.
  */
-export class Split<T extends object> {
+export class Split<T extends Dict<unknown>> {
   constructor(public readonly explicit: Partial<T> = {}, public readonly implicit: Partial<T> = {}) {}
 
   public clone() {
