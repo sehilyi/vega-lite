@@ -147,7 +147,7 @@ export function makeCompositeAggregatePartFactory<P extends PartsMixins<any>>(
   sharedEncoding: Encoding<string>,
   compositeMarkConfig: P
 ) {
-  const {scale, axis} = continuousAxisChannelDef;
+  const {scale, axis: a} = continuousAxisChannelDef;
 
   return ({
     partName,
@@ -163,6 +163,10 @@ export function makeCompositeAggregatePartFactory<P extends PartsMixins<any>>(
     extraEncoding?: Encoding<string>;
   }) => {
     const title = getTitle(continuousAxisChannelDef);
+    const axis = {
+      title,
+      ...a
+    };
 
     return partLayerMixins<P>(compositeMarkDef, partName, compositeMarkConfig, {
       mark, // TODO better remove this method and just have mark as a parameter of the method
@@ -170,7 +174,6 @@ export function makeCompositeAggregatePartFactory<P extends PartsMixins<any>>(
         [continuousAxis]: {
           field: positionPrefix + '_' + continuousAxisChannelDef.field,
           type: continuousAxisChannelDef.type,
-          ...(title !== undefined ? {title} : {}),
           ...(scale !== undefined ? {scale} : {}),
           ...(axis !== undefined ? {axis} : {})
         },
