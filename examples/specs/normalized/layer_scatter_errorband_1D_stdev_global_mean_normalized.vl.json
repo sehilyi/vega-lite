@@ -43,7 +43,7 @@
             "y": {
               "field": "lower_Miles_per_Gallon",
               "type": "quantitative",
-              "title": "Miles per Gallon"
+              "axis": {"title": "Miles per Gallon"}
             },
             "y2": {"field": "upper_Miles_per_Gallon"},
             "tooltip": [

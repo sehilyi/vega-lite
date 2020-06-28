@@ -43,7 +43,7 @@
         "x": {
           "field": "lower_yield",
           "type": "quantitative",
-          "title": "Barley Yield"
+          "axis": {"title": "Barley Yield"}
         },
         "x2": {"field": "upper_yield"},
         "y": {"field": "variety", "type": "ordinal"},

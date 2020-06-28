@@ -103,7 +103,7 @@
             "signal": "{\"Mean of Miles per Gallon\": format(datum[\"center_Miles_per_Gallon\"], \"\"), \"Mean + stdev of Miles per Gallon\": format(datum[\"upper_Miles_per_Gallon\"], \"\"), \"Mean - stdev of Miles per Gallon\": format(datum[\"lower_Miles_per_Gallon\"], \"\")}"
           },
           "description": {
-            "signal": "\"Miles per Gallon: \" + (format(datum[\"lower_Miles_per_Gallon\"], \"\")) + \"; upper_Miles_per_Gallon: \" + (format(datum[\"upper_Miles_per_Gallon\"], \"\")) + \"; Mean of Miles per Gallon: \" + (format(datum[\"center_Miles_per_Gallon\"], \"\")) + \"; Mean + stdev of Miles per Gallon: \" + (format(datum[\"upper_Miles_per_Gallon\"], \"\")) + \"; Mean - stdev of Miles per Gallon: \" + (format(datum[\"lower_Miles_per_Gallon\"], \"\"))"
+            "signal": "\"lower_Miles_per_Gallon: \" + (format(datum[\"lower_Miles_per_Gallon\"], \"\")) + \"; upper_Miles_per_Gallon: \" + (format(datum[\"upper_Miles_per_Gallon\"], \"\")) + \"; Mean of Miles per Gallon: \" + (format(datum[\"center_Miles_per_Gallon\"], \"\")) + \"; Mean + stdev of Miles per Gallon: \" + (format(datum[\"upper_Miles_per_Gallon\"], \"\")) + \"; Mean - stdev of Miles per Gallon: \" + (format(datum[\"lower_Miles_per_Gallon\"], \"\"))"
           },
           "x": {"field": {"group": "width"}},
           "x2": {"value": 0},

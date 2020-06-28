@@ -41,14 +41,14 @@
               "mark": {
                 "type": "rule",
                 "invalid": null,
-                "style": "boxplot-rule",
-                "aria": false
+                "aria": false,
+                "style": "boxplot-rule"
               },
               "encoding": {
                 "x": {
                   "field": "lower_whisker_people",
                   "type": "quantitative",
-                  "title": "population"
+                  "axis": {"title": "population"}
                 },
                 "x2": {"field": "lower_box_people"},
                 "y": {"field": "age", "type": "ordinal"},
@@ -71,14 +71,14 @@
               "mark": {
                 "type": "rule",
                 "invalid": null,
-                "style": "boxplot-rule",
-                "aria": false
+                "aria": false,
+                "style": "boxplot-rule"
               },
               "encoding": {
                 "x": {
                   "field": "upper_box_people",
                   "type": "quantitative",
-                  "title": "population"
+                  "axis": {"title": "population"}
                 },
                 "x2": {"field": "upper_whisker_people"},
                 "y": {"field": "age", "type": "ordinal"},
@@ -126,7 +126,7 @@
                 "x": {
                   "field": "lower_box_people",
                   "type": "quantitative",
-                  "title": "population"
+                  "axis": {"title": "population"}
                 },
                 "x2": {"field": "upper_box_people"},
                 "y": {"field": "age", "type": "ordinal"},
@@ -167,14 +167,14 @@
                 "invalid": null,
                 "size": 14,
                 "orient": "vertical",
-                "style": "boxplot-median",
-                "aria": false
+                "aria": false,
+                "style": "boxplot-median"
               },
               "encoding": {
                 "x": {
                   "field": "mid_box_people",
                   "type": "quantitative",
-                  "title": "population"
+                  "axis": {"title": "population"}
                 },
                 "y": {"field": "age", "type": "ordinal"},
                 "tooltip": [

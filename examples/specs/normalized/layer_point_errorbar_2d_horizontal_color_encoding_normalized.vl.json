@@ -25,15 +25,15 @@
           "mark": {
             "type": "tick",
             "orient": "vertical",
-            "style": "errorbar-ticks",
-            "aria": false
+            "aria": false,
+            "style": "errorbar-ticks"
           },
           "encoding": {
             "x": {
               "field": "lower_yield",
               "type": "quantitative",
-              "title": "yield",
-              "scale": {"zero": false}
+              "scale": {"zero": false},
+              "axis": {"title": "yield"}
             },
             "y": {"field": "variety", "type": "ordinal"},
             "color": {"value": "#4682b4"},
@@ -61,15 +61,15 @@
           "mark": {
             "type": "tick",
             "orient": "vertical",
-            "style": "errorbar-ticks",
-            "aria": false
+            "aria": false,
+            "style": "errorbar-ticks"
           },
           "encoding": {
             "x": {
               "field": "upper_yield",
               "type": "quantitative",
-              "title": "yield",
-              "scale": {"zero": false}
+              "scale": {"zero": false},
+              "axis": {"title": "yield"}
             },
             "y": {"field": "variety", "type": "ordinal"},
             "color": {"value": "#4682b4"},
@@ -103,8 +103,8 @@
             "x": {
               "field": "lower_yield",
               "type": "quantitative",
-              "title": "yield",
-              "scale": {"zero": false}
+              "scale": {"zero": false},
+              "axis": {"title": "yield"}
             },
             "x2": {"field": "upper_yield"},
             "y": {"field": "variety", "type": "ordinal"},

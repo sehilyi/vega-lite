@@ -29,8 +29,8 @@
         "y": {
           "field": "lower_yield",
           "type": "quantitative",
-          "title": "yield",
-          "scale": {"zero": false}
+          "scale": {"zero": false},
+          "axis": {"title": "yield"}
         },
         "y2": {"field": "upper_yield"},
         "tooltip": [

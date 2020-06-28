@@ -27,8 +27,8 @@
     "x": {
       "field": "lower_yield",
       "type": "quantitative",
-      "title": "yield",
-      "scale": {"zero": false}
+      "scale": {"zero": false},
+      "axis": {"title": "yield"}
     },
     "x2": {"field": "upper_yield"},
     "y": {"field": "variety", "type": "ordinal"},

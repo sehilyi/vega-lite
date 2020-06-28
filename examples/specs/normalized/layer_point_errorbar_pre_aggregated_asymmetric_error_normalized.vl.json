@@ -49,8 +49,8 @@
         "x": {
           "field": "lower_yield_center",
           "type": "quantitative",
-          "title": "yield",
-          "scale": {"zero": false}
+          "scale": {"zero": false},
+          "axis": {"title": "yield"}
         },
         "x2": {"field": "upper_yield_center"},
         "y": {"field": "variety", "type": "ordinal"},

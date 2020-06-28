@@ -74,15 +74,15 @@
               "mark": {
                 "type": "rule",
                 "invalid": null,
-                "style": "boxplot-rule",
-                "aria": false
+                "aria": false,
+                "style": "boxplot-rule"
               },
               "encoding": {
                 "x": {
                   "field": "lower_whisker_Body Mass (g)",
                   "type": "quantitative",
-                  "title": "Body Mass (g)",
-                  "scale": {"zero": false}
+                  "scale": {"zero": false},
+                  "axis": {"title": "Body Mass (g)"}
                 },
                 "x2": {"field": "lower_box_Body Mass (g)"},
                 "tooltip": [
@@ -103,15 +103,15 @@
               "mark": {
                 "type": "rule",
                 "invalid": null,
-                "style": "boxplot-rule",
-                "aria": false
+                "aria": false,
+                "style": "boxplot-rule"
               },
               "encoding": {
                 "x": {
                   "field": "upper_box_Body Mass (g)",
                   "type": "quantitative",
-                  "title": "Body Mass (g)",
-                  "scale": {"zero": false}
+                  "scale": {"zero": false},
+                  "axis": {"title": "Body Mass (g)"}
                 },
                 "x2": {"field": "upper_whisker_Body Mass (g)"},
                 "tooltip": [
@@ -135,15 +135,15 @@
                 "opacity": 1,
                 "orient": "vertical",
                 "invalid": null,
-                "style": "boxplot-ticks",
-                "aria": false
+                "aria": false,
+                "style": "boxplot-ticks"
               },
               "encoding": {
                 "x": {
                   "field": "lower_whisker_Body Mass (g)",
                   "type": "quantitative",
-                  "title": "Body Mass (g)",
-                  "scale": {"zero": false}
+                  "scale": {"zero": false},
+                  "axis": {"title": "Body Mass (g)"}
                 },
                 "tooltip": [
                   {
@@ -166,15 +166,15 @@
                 "opacity": 1,
                 "orient": "vertical",
                 "invalid": null,
-                "style": "boxplot-ticks",
-                "aria": false
+                "aria": false,
+                "style": "boxplot-ticks"
               },
               "encoding": {
                 "x": {
                   "field": "upper_whisker_Body Mass (g)",
                   "type": "quantitative",
-                  "title": "Body Mass (g)",
-                  "scale": {"zero": false}
+                  "scale": {"zero": false},
+                  "axis": {"title": "Body Mass (g)"}
                 },
                 "tooltip": [
                   {
@@ -233,8 +233,8 @@
             "x": {
               "field": "lower_box_Body Mass (g)",
               "type": "quantitative",
-              "title": "Body Mass (g)",
-              "scale": {"zero": false}
+              "scale": {"zero": false},
+              "axis": {"title": "Body Mass (g)"}
             },
             "x2": {"field": "upper_box_Body Mass (g)"},
             "tooltip": [
@@ -273,15 +273,15 @@
             "invalid": null,
             "size": 14,
             "orient": "vertical",
-            "style": "boxplot-median",
-            "aria": false
+            "aria": false,
+            "style": "boxplot-median"
           },
           "encoding": {
             "x": {
               "field": "mid_box_Body Mass (g)",
               "type": "quantitative",
-              "title": "Body Mass (g)",
-              "scale": {"zero": false}
+              "scale": {"zero": false},
+              "axis": {"title": "Body Mass (g)"}
             },
             "tooltip": [
               {

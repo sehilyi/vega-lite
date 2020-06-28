@@ -27,8 +27,8 @@
             "y": {
               "field": "lower_ci1",
               "type": "quantitative",
-              "title": "Mean of Miles per Gallon (95% CIs)",
-              "scale": {"zero": false}
+              "scale": {"zero": false},
+              "axis": {"title": "Mean of Miles per Gallon (95% CIs)"}
             },
             "y2": {"field": "upper_ci1"},
             "x": {
